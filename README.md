@@ -16,11 +16,11 @@ developer options in Windows Settings.
 5. Generate a certificate
 6. Save
 7. Download the latest x86 void ROOTFS tarball, then do the following:
-  1. Unpack the .xz archive (so you're left with .tar)
-  2. Repack the tarbal with gzip (so you get .tar.gz)
-  3. Rename the archive to "install.tar.gz"
-  4. Make a directory called x64 in the root of the project
-  5. Place your install.tar.gz in it
+    1. Unpack the .xz archive (so you're left with .tar)
+    2. Repack the tarbal with gzip (so you get .tar.gz)
+    3. Rename the archive to "install.tar.gz"
+    4. Make a directory called x64 in the root of the project
+    5. Place your install.tar.gz in it
 8. In Visual Studio, make sure your build settings (dropdowns at the top) are
    set to "Release" and "x64"
 9. Go to Build -> Deploy Solution
